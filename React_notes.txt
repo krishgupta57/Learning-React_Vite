@@ -115,3 +115,18 @@ step to install tailwind are as follow
 4. the we will run it
 
 to use tailwind we have to learn some function
+
+Events-> function to make the funcionality are called as events.
+
+When we have to pass some value at the calling time then we have to pass the arrow function at the calling time and pass the +a at the function
+
+the data change in the JSX are called as state
+
+Hooks-> Hooks are predefine function 
+Syntax->let[variable,function]=useState(Initial state)
+
+if we want to change the value of that useState then we will
+have to take the help of that function only which we have given in that variable
+
+hook will be made in the top of the componts & starting of that function
+and we will have to import it 
