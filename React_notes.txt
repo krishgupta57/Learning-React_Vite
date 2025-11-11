@@ -1,0 +1,117 @@
+react-> is a library of JS -> for creating UI
+
+FrameWork -> we cant change the set of rules
+Library -> we can change the accordingly
+
+react uses -> web development      -> react js
+           -> mobile development   -> react native
+
+Jorden walk is the founder of react in 2011 (dependend)
+in 2013 it was open source
+
+sections are called as -> componts
+previously we use to write all the code for all the sections
+but in react we use to make one file and the we will do import export to call that section
+the main advantage of react is reusability
+
+State -> the data can be changed is called as state which is present inside the tags
+
+What is diffing?
+it is use to change the content with the help of react without targeting 
+it is also the comparision of real dom and virtual dom (copy of real dom)
+Difference between virtual dom and real dom 
+
+we use bundler to make the project (react + bundler)
+vite -> is the bundler we use 
+
+What is bundler? 
+
+we use cmd to react project 
+the command is -> npm create vite@latest
+
+the select all the command
+
+then the project will run in the server 
+to close it we will use ctrl+c
+
+to run it again we use the command in the project folder -> npm run dev 
+
+first we have to go to the project directory -> cd project name
+then we have to install the node module -> npm install
+then we have to run it -> npm run dev
+
+inside the folder -:
+
+node module -> all the package were install in thei folder
+public -> no file will be changed in this folder
+src -> we will work in this folder and we will make the componts hear
+.gitignore ->
+package.json -> all the entries of the project were present in this file
+package-lock.json -> all the dependecies were lock in this file with virsion with path to run it in the future
+vite.config.js -> saves the vite configiration 
+
+VVIP -> there will be only one html file
+
+.jsx -> javascript xml
+xml -> extensible markup language
+
+rules of jsx -> 
+1. There will be one parent element and multiple child
+2. 
+
+in this the main.jsx will work like a medium which will make the componts present 
+in the app.jsx to show in the browser with the help of index.html
+
+app.jsx is the root componts
+
+there are 2 types of componts
+1. class componts
+2. funtional componts  -> is the latest we use
+
+to export multiple function we use named export
+
+if we want to write the code of so we will write the 
+code outside of the return 
+
+we use css in 2 ways 1. Inline 
+                     2. External
+
+in inline css we pass the style and the 2 curly bracket
+<h1 style={{css}}>
+
+to apply css in perticular file we will write External css in 
+app.jsx
+
+and if we want to apply css globaly so we will write css code in index.jsx
+
+to write css in external we use to import the css file to the file in which we have to apply
+
+Props->
+Props Are called as properties and it is the combination attributes and parameter
+it will flow the data from parent to child
+
+attributes are called as additional properties of tags
+
+we will pass the attribute in the parent
+and we will accept that attribute through the parameter in the child
+
+tags which we will write in the return function are called as JSX
+
+Props are static & immutable
+
+if we transfer data from one page to another this is called as Props Drilling,
+
+if we want to add image to the webpage through jsx so there is 
+2 ways 
+
+1. from the public which we will use directly
+2. from assets which we have to import from the assets folder through passing the variable in the app.jsx
+
+step to install tailwind are as follow
+
+1. we have to copy command from the tailwin site 
+2. then we will come to the second and paste in the vite.config.js
+3. the we will copy the css command and paste it to the index.css
+4. the we will run it
+
+to use tailwind we have to learn some function
