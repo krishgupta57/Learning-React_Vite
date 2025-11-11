@@ -1,0 +1,56 @@
+.head{
+  background-color: beige;
+  text-align: center;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.banner{
+  text-align: center;
+  background-image: url(img/Reactbg.webp);
+  background-size: cover;
+  height: 100vh;
+}
+
+.banner h1{
+  position: relative;
+  top: 300px;
+  font-size: 50px;
+  color: beige;
+}
+
+.banner p{
+  position: relative;
+  top: 300px;
+  font-size: 30px;
+  color: beige;
+}
+
+.banner button{
+  position: relative;
+  top: 300px;
+  font-size: 17px;
+  padding: 10px 40px;
+  background-color: beige;
+  border-style: none;
+  border-radius: 50px;
+}
+
+#btn:hover{
+  background-color: black;
+  color: beige;
+  cursor: pointer;
+}
+
+.tbox{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 50px;
+}
+
+.tbox div{
+  background-color: yellow;
+  padding: 20px;
+  border-radius: 25px;
+}
