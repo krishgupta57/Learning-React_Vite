@@ -1,16 +1,15 @@
-import { useState } from "react"
+import Color from "./Color"
+import Counter from "./Counter"
 
 function App(){
-  let [data,setData]=useState(10)
-
-  function Click(){
-    alert("Working")
-    setData(90)
-  }
   return(
     <>
-      <h1>This is app = {data}</h1>
-      <button onClick={Click}>Click Hear</button>
+      <Counter />
+
+      <hr />
+
+      <Color />
+
     </>
   )
 }
