@@ -122,6 +122,8 @@ When we have to pass some value at the calling time then we have to pass the arr
 
 the data change in the JSX are called as state
 
+******************************************************
+
 Hooks-> Hooks are predefine function 
 Syntax->let[variable,function]=useState(Initial state)
 
@@ -130,3 +132,39 @@ have to take the help of that function only which we have given in that variable
 
 hook will be made in the top of the componts & starting of that function
 and we will have to import it 
+
+****************************************************
+
+routing->
+
+react router dom is a library which is use to redirect(render) to the other webpage
+
+first we have to install react router dom
+
+steps are ->
+
+the to install react router dom is -> npm install react-router-dom
+
+main componets are->
+BrowserRouter-> enables navigation  -> is is use in main.jsx
+Routes -> it is a container contains all the path  -> use in app.jsx
+Route -> kon se path me kon sa element ko redirect karna hai  -> use in app.jsx
+
+steps to use it->
+
+1. we have to import BrowserRouter to main.jsx
+2. the we have to werp the app.jsx in the BrowserRouter
+3. then we have to import route and routes in the app.jsx
+4. then we have to give the routes open and close in the fragments
+5. we have to call the route
+
+to redirect we have to import Link in that file and pass the link tag where we have 
+to redirect that page
+in the link tag we have to pass to and in that to we have to pass the path of that page
+
+componets are based on url(path)
+
+TO ifx tha layout of webpage we have to werp all the componets of the app.jsx into route
+and route will be given path of the navbar(which we have to fix in that page)
+
+then we have to pass the outlet in between of the header and footer
