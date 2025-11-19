@@ -164,7 +164,25 @@ in the link tag we have to pass to and in that to we have to pass the path of th
 
 componets are based on url(path)
 
-TO ifx tha layout of webpage we have to werp all the componets of the app.jsx into route
+TO fix tha layout of webpage we have to werp all the componets of the app.jsx into route
 and route will be given path of the navbar(which we have to fix in that page)
 
 then we have to pass the outlet in between of the header and footer
+
+**************************************************************
+
+use effect hook-> if we want use side effect 
+-> mainly used to fetch the api 
+
+we can use it in 3 ways ->
+
+1. -> use effect without dependecies -> jab ham page me kuch bhi action pass karenge to ye automatic call ho jata hai
+2. -> use effect with empty dependecies -> isme ye ek hi baar work karega baar baar work nahi karega
+3. -> use effect with dependecies -> 
+
+steps to use use effect->
+1. -> first we have to import useeffect
+2. -> then we have to write the Syntax
+
+Syntax of without dependecies -> useEffect(function,dependency)
+
