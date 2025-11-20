@@ -186,3 +186,14 @@ steps to use use effect->
 
 Syntax of without dependecies -> useEffect(function,dependency)
 
+************************************************************
+
+Form Handling ->
+
+to target the value we will pass onChange event
+
+when we change value every time it will fire event again and again
+
+if we want to target the value of input field then we have to do->
+variableName.target.value
+
