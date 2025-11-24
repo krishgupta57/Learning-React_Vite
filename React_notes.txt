@@ -172,12 +172,13 @@ then we have to pass the outlet in between of the header and footer
 **************************************************************
 
 use effect hook-> if we want use side effect 
--> mainly used to fetch the api 
+-> mainly used to fetch the api
+-> it will use in the top of the return 
 
 we can use it in 3 ways ->
 
 1. -> use effect without dependecies -> jab ham page me kuch bhi action pass karenge to ye automatic call ho jata hai
-2. -> use effect with empty dependecies -> isme ye ek hi baar work karega baar baar work nahi karega
+2. -> use effect with empty dependecies -> isme ye ek hi baar work karega baar baar work nahi karega -> run once only
 3. -> use effect with dependecies -> 
 
 steps to use use effect->
@@ -197,3 +198,14 @@ when we change value every time it will fire event again and again
 if we want to target the value of input field then we have to do->
 variableName.target.value
 
+******************************************************************************
+
+to store and target the value from the form and show the value at the console the steps are :-
+
+1. we have to make the form and pass the name attribute at the input tag
+2. the we have to make the useState at the above of the return as teh form of object
+3. then we have to pass the onChange event and the make the function
+4. the we have to target the value
+5. then we have to store the value in the useState through the spread operator
+6. then we have to pass the onsubmit event and make the function
+7. then we have to pass the console.log to print the data in the console
