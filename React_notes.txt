@@ -209,3 +209,24 @@ to store and target the value from the form and show the value at the console th
 5. then we have to store the value in the useState through the spread operator
 6. then we have to pass the onsubmit event and make the function
 7. then we have to pass the console.log to print the data in the console
+
+************************************************************************************
+
+Context API ->
+
+used for solving the problem of props Drilling 
+if we want to send the data from parent to child 5 so we will use context Drilling
+
+there are 3 main function ->
+
+1. createContext -> used for creating the data fo sending
+2. Provider -> used to share the data
+3. Consumer -> data which is consume
+
+steps to use context API->
+
+1. we have to make a createContext above the function and store it in a variable
+2. then we have to wrap the componts to the Provider
+3. the we have to export the createContext which is store in a variable
+4. the we have to import it in child componet and wrap it in Consumer
+5. we will recive the data of context API in a function 
