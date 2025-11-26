@@ -2,7 +2,7 @@ import { createContext } from "react"
 import Child1 from "./Child1"
 
 let data = createContext()
-let name = "Global from Parent"
+let name = {name:"krish",age:15}
 
 function App(){
   return(

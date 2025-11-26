@@ -221,7 +221,7 @@ there are 3 main function ->
 
 1. createContext -> used for creating the data fo sending
 2. Provider -> used to share the data
-3. Consumer -> data which is consume
+3. Consumer(optional) -> data which is consume
 
 steps to use context API->
 
@@ -230,3 +230,8 @@ steps to use context API->
 3. the we have to export the createContext which is store in a variable
 4. the we have to import it in child componet and wrap it in Consumer
 5. we will recive the data of context API in a function 
+
+to transfer multiple data we use useContext hook above the return
+
+if we have to store mutiple data so use will store the data in an object
+and then access by dot notation
