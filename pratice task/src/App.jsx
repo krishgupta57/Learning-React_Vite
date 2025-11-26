@@ -4,6 +4,7 @@ import Home from "./Home"
 import About from "./About"
 import Contact from "./Contact"
 import Form4 from "./Form4"
+import Tarnary from "./Tarnary"
 
 function App(){
   return(
@@ -18,6 +19,8 @@ function App(){
         <Route path="/contact" element={<Contact />} />
 
         <Route path="/form4" element={<Form4 />} />
+        
+        <Route path="/tarnary" element={<Tarnary />} />
 
         </Route>
         
@@ -26,4 +29,4 @@ function App(){
   )
 }
 
-export default App
+export default App 

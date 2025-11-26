@@ -10,6 +10,7 @@ function Navbar(){
                     <li><Link to="/about" >About</Link></li>
                     <li><Link to="/contact" >Contact</Link></li>
                     <li><Link to="/form4" >Form4</Link></li>
+                    <li><Link to="/tarnary" >Tarnary</Link></li>
                     
                 </ul>
                     <button className="px-4 py-2 bg-white rounded-full hover:bg-black hover:text-white cursor-pointer">Theme</button>
