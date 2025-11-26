@@ -235,3 +235,9 @@ to transfer multiple data we use useContext hook above the return
 
 if we have to store mutiple data so use will store the data in an object
 and then access by dot notation
+
+
+**********************************************************
+
+if we have to pass the 2 function in one event then we have to use tarnary operator
+Syntax -> { variableNmae ? trueCondition : falseCondition }

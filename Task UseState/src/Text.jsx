@@ -1,11 +1,12 @@
 import { useState } from "react"
 
 function Text(){
-    let[text,setText]=useState("")
+    let[text,setText]=useState(false)
 
     return(
         <>
-            <button onClick={()=>setText("Hello Students!")} onDoubleClick={()=>setText("")} >Show Massage</button>
+            { text ? <h1>Hello Students...!</h1> : <h1></h1> }
+            <button onClick={()=>setText(!text)} >Show Massage</button>
             <h1> {text} </h1>
         </>
     )
