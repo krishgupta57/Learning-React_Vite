@@ -171,7 +171,7 @@ then we have to pass the outlet in between of the header and footer
 
 **************************************************************
 
-use effect hook-> if we want use side effect 
+useEffect hook-> if we want use side effect 
 -> mainly used to fetch the api
 -> it will use in the top of the return 
 
@@ -239,5 +239,21 @@ and then access by dot notation
 
 **********************************************************
 
+Toggle->
+
 if we have to pass the 2 function in one event then we have to use tarnary operator
 Syntax -> { variableNmae ? trueCondition : falseCondition }
+
+************************************************************
+
+Local Storage->
+
+NOTE -> when we pass an event in tag so in function we have to pass event object
+
+to set data to storage we use setitem function
+
+step to store data from a form->
+
+1. we have to target the value from the form
+2. we have to make the function
+3. we ahve to send the data in key:value pair to the localstorage
