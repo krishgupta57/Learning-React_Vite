@@ -64,6 +64,8 @@ in the app.jsx to show in the browser with the help of index.html
 
 app.jsx is the root componts
 
+*****************************************************************************
+
 there are 2 types of componts
 1. class componts
 2. funtional componts  -> is the latest we use
@@ -71,7 +73,7 @@ there are 2 types of componts
 to export multiple function we use named export
 
 if we want to write the code of so we will write the 
-code outside of the return 
+code inside of the return 
 
 we use css in 2 ways 1. Inline 
                      2. External
@@ -85,6 +87,8 @@ app.jsx
 and if we want to apply css globaly so we will write css code in index.jsx
 
 to write css in external we use to import the css file to the file in which we have to apply
+
+************************************************************************************
 
 Props->
 Props Are called as properties and it is the combination attributes and parameter
@@ -101,11 +105,15 @@ Props are static & immutable
 
 if we transfer data from one page to another this is called as Props Drilling,
 
+********************************************************************************************
+
 if we want to add image to the webpage through jsx so there is 
 2 ways 
 
 1. from the public which we will use directly
 2. from assets which we have to import from the assets folder through passing the variable in the app.jsx
+
+*********************************************************************************************
 
 step to install tailwind are as follow
 
@@ -116,9 +124,12 @@ step to install tailwind are as follow
 
 to use tailwind we have to learn some function
 
+**************************************************************************************************
+
 Events-> function to make the funcionality are called as events.
 
-When we have to pass some value at the calling time then we have to pass the arrow function at the calling time and pass the +a at the function
+When we have to pass some value at the calling time then we have to pass the arrow function at the calling 
+time and pass the +a at the function
 
 the data change in the JSX are called as state
 
