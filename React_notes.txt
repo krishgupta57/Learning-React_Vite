@@ -278,3 +278,22 @@ it will use inside the function
 
 it will be imported from the react-router-dom 
 
+****************************************************************************************
+
+Axios -> is a third party library
+it will work like fetch function
+in this we will not use fetch function
+
+it will work with the help of http method (get,push,delete,put)
+
+to install it command -> npm install axios
+
+first we have to make a new json file 
+
+the save the data in an object and then schema
+
+then we have to run that file through cmd
+command -> json-server --watch data1.json
+
+this will be run in src folder
+
