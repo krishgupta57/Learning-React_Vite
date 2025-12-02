@@ -268,3 +268,13 @@ step to store data from a form->
 1. we have to target the value from the form
 2. we have to make the function
 3. we ahve to send the data in key:value pair to the localstorage
+
+***************************************************************************************
+
+useNavigate ->
+
+use Navigate is a hook which is use to render directly to a new page 
+it will use inside the function
+
+it will be imported from the react-router-dom 
+
