@@ -1,0 +1,18 @@
+{
+  "userdata": [
+    {
+      "name": "Krish",
+      "age": 21,
+      "contact": 34567,
+      "city": "BPL",
+      "id": "071f"
+    },
+    {
+      "id": "3a49",
+      "name": "krish gupta",
+      "age": "88",
+      "city": "Beohari",
+      "contact": "56789"
+    }
+  ]
+}
