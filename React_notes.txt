@@ -297,3 +297,6 @@ command -> json-server --watch data1.json
 
 this will be run in src folder
 
+library for react is toastify
+
+to install it command is -> npm i react-toastify
